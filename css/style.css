@@ -9872,3 +9872,7 @@ a.text-dark:hover, a.text-dark:focus {
 #main{
   background-color: #00635B !important;
 }
+#image{
+  width: 50px; 
+    height: 50px; 
+}
