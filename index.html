@@ -49,13 +49,13 @@
                     <a href="class.html" class="nav-item nav-link">Classes</a>
                     <a href="team.html" class="nav-item nav-link">Teachers</a>
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                    <div class="nav-item dropdown">
+                    <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="blog.html" class="dropdown-item">Blog Grid</a>
                             <a href="single.html" class="dropdown-item">Blog Detail</a>
                         </div>
-                    </div>
+                    </div> -->
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="" class="btn btn-primary px-4">Join Class</a>
@@ -74,7 +74,7 @@
                 <p class="text-white mb-4">Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed sit.
                     Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed ipsum at ipsum nonumy amet. Clita
                     lorem dolore sed stet et est justo dolore.</p>
-                <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
+                <a href="" class="btn btn-secondary mt-1 py-3 px-5" id="btn">Learn More</a>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
                 <img class="img-fluid mt-5" src="img/header.png" alt="">
@@ -346,7 +346,7 @@
                                     </select>
                                 </div>
                                 <div>
-                                    <button class="btn btn-secondary btn-block border-0 py-3" type="submit">Apply Now
+                                    <button class="btn btn-secondary btn-block border-0 py-3" type="submit" id="btn">Apply Now
                                     </button>
                                 </div>
                             </form>
@@ -565,10 +565,12 @@
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5" id="main">
         <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" id="footer-1">
                 <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
-                    <i class="flaticon-043-teddy-bear"></i>
-                    <span class="text-white">KidKinder</span>
+                    <!-- <i class="flaticon-043-teddy-bear"></i>
+                    <span class="text-white">KidKinder</span> -->
+                    <img src="./img/logo-school.png" alt="KidKinder Logo" style="height: 60px;">
+                <img src="./img/name-school.png" alt="KidKinder Logo" style="height: 60px;">
                 </a>
                 <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
                 <div class="d-flex justify-content-start mt-4">
@@ -582,7 +584,7 @@
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" id="footer-2">
                 <h3 class="text-primary mb-4">Get In Touch</h3>
                 <div class="d-flex">
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
@@ -595,51 +597,38 @@
                     <h4 class="fa fa-envelope text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">Email</h5>
-                        <p>info@example.com</p>
+                        <p>medhaconceptschool.wgl@gmail.com</p>
                     </div>
                 </div>
                 <div class="d-flex">
                     <h4 class="fa fa-phone-alt text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">Phone</h5>
-                        <p>+012 345 67890</p>
+                        <p>7893262829</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" id="footer-3">
                 <h3 class="text-primary mb-4">Quick Links</h3>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Classes</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Teachers</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Blog</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="class.html"><i class="fa fa-angle-right mr-2"></i>Our Classes</a>
+                    <a class="text-white mb-2" href="team.html"><i class="fa fa-angle-right mr-2"></i>Our Teachers</a>
+                    <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Blog</a> -->
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                            required="required" />
-                    </div>
-                    <div>
-                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
-                    </div>
-                </form>
-            </div>
+          
         </div>
         <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-primary font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed
-                by
-                <a class="text-primary font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+                &copy; <a class="text-primary font-weight-bold" href="#">medhaconceptschool</a>. All Rights Reserved. Designed
+                by Lifeboat Technologies
+                <a class="text-primary font-weight-bold" href="lifeboat.co.in">HTML Codex</a>
             </p>
         </div>
+
     </div>
     <!-- Footer End -->
 
