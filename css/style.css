@@ -9894,8 +9894,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 #footer-3{
   margin-right: 90px;
+  font-family:  "Handlee", cursive;
 
 }
 #founder{
   width: 30rem;
+}
+#sendMessageButton{
+  background-color: #679F99 !important;
+
+}
+#sendMessageButton:hover{
+  background-color: #92D2D3 !important;
+
+}
+#degree{
+  margin-top: -1rem;
 }
