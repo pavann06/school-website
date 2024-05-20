@@ -9878,10 +9878,11 @@ a.text-dark:hover, a.text-dark:focus {
     height: 50px; 
 }
 #btn{
-  background-color: #679F99 !important;
+  background-color: #92D2D3 !important;
+  color: #00635B !important ;
 }
 #btn:hover {
-  background-color: #92D2D3 !important;
+  background-color: #679F99 !important; 
 }
 #footer-1{
   margin-right: 100px;
@@ -9913,4 +9914,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 #title{
   font-size: 50px !important;
+  
+}
+#title-1{
+  font-size: 40px !important;
 }
