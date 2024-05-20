@@ -9911,3 +9911,6 @@ a.text-dark:hover, a.text-dark:focus {
 #degree{
   margin-top: -1rem;
 }
+#title{
+  font-size: 50px !important;
+}
